@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A661AB1D7247EC002BD8B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A661AA1D7247EC002BD8B4 /* AppDelegate.swift */; };
+		06A661AD1D7247EC002BD8B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A661AC1D7247EC002BD8B4 /* ViewController.swift */; };
+		06A661B01D7247EC002BD8B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A661AE1D7247EC002BD8B4 /* Main.storyboard */; };
+		06A661B21D7247EC002BD8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A661B11D7247EC002BD8B4 /* Assets.xcassets */; };
+		06A661B51D7247EC002BD8B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A661B31D7247EC002BD8B4 /* LaunchScreen.storyboard */; };
+		06B8856B1D72981700B48818 /* Transformers Movie.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06B8856A1D72981700B48818 /* Transformers Movie.ttf */; };
+		06B8856D1D729F4D00B48818 /* 154953__keykrusher__microwave-beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06B8856C1D729F4D00B48818 /* 154953__keykrusher__microwave-beep.wav */; };
+		06F742FA1D73DFC000677AB6 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06F742F91D73DFC000677AB6 /* btn.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06A661A71D7247EC002BD8B4 /* FutureCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutureCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A661AA1D7247EC002BD8B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06A661AC1D7247EC002BD8B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06A661AF1D7247EC002BD8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06A661B11D7247EC002BD8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06A661B41D7247EC002BD8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06A661B61D7247EC002BD8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B8856A1D72981700B48818 /* Transformers Movie.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Transformers Movie.ttf"; sourceTree = "<group>"; };
+		06B8856C1D729F4D00B48818 /* 154953__keykrusher__microwave-beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "154953__keykrusher__microwave-beep.wav"; sourceTree = "<group>"; };
+		06F742F91D73DFC000677AB6 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06A661A41D7247EC002BD8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A6619E1D7247EC002BD8B4 = {
+			isa = PBXGroup;
+			children = (
+				06A661A91D7247EC002BD8B4 /* FutureCalc */,
+				06A661A81D7247EC002BD8B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06A661A81D7247EC002BD8B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06A661A71D7247EC002BD8B4 /* FutureCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06A661A91D7247EC002BD8B4 /* FutureCalc */ = {
+			isa = PBXGroup;
+			children = (
+				06F742F91D73DFC000677AB6 /* btn.wav */,
+				06B8856C1D729F4D00B48818 /* 154953__keykrusher__microwave-beep.wav */,
+				06B8856A1D72981700B48818 /* Transformers Movie.ttf */,
+				06A661AA1D7247EC002BD8B4 /* AppDelegate.swift */,
+				06A661AC1D7247EC002BD8B4 /* ViewController.swift */,
+				06A661AE1D7247EC002BD8B4 /* Main.storyboard */,
+				06A661B11D7247EC002BD8B4 /* Assets.xcassets */,
+				06A661B31D7247EC002BD8B4 /* LaunchScreen.storyboard */,
+				06A661B61D7247EC002BD8B4 /* Info.plist */,
+			);
+			path = FutureCalc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06A661A61D7247EC002BD8B4 /* FutureCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A661B91D7247EC002BD8B4 /* Build configuration list for PBXNativeTarget "FutureCalc" */;
+			buildPhases = (
+				06A661A31D7247EC002BD8B4 /* Sources */,
+				06A661A41D7247EC002BD8B4 /* Frameworks */,
+				06A661A51D7247EC002BD8B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FutureCalc;
+			productName = FutureCalc;
+			productReference = 06A661A71D7247EC002BD8B4 /* FutureCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06A6619F1D7247EC002BD8B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Fernando Mendoza";
+				TargetAttributes = {
+					06A661A61D7247EC002BD8B4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 06A661A21D7247EC002BD8B4 /* Build configuration list for PBXProject "FutureCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06A6619E1D7247EC002BD8B4;
+			productRefGroup = 06A661A81D7247EC002BD8B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06A661A61D7247EC002BD8B4 /* FutureCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06A661A51D7247EC002BD8B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B8856B1D72981700B48818 /* Transformers Movie.ttf in Resources */,
+				06A661B51D7247EC002BD8B4 /* LaunchScreen.storyboard in Resources */,
+				06A661B21D7247EC002BD8B4 /* Assets.xcassets in Resources */,
+				06F742FA1D73DFC000677AB6 /* btn.wav in Resources */,
+				06A661B01D7247EC002BD8B4 /* Main.storyboard in Resources */,
+				06B8856D1D729F4D00B48818 /* 154953__keykrusher__microwave-beep.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A661A31D7247EC002BD8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A661AD1D7247EC002BD8B4 /* ViewController.swift in Sources */,
+				06A661AB1D7247EC002BD8B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06A661AE1D7247EC002BD8B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06A661AF1D7247EC002BD8B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06A661B31D7247EC002BD8B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06A661B41D7247EC002BD8B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06A661B71D7247EC002BD8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06A661B81D7247EC002BD8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06A661BA1D7247EC002BD8B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FutureCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FernandoMendoza.FutureCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		06A661BB1D7247EC002BD8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FutureCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FernandoMendoza.FutureCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06A661A21D7247EC002BD8B4 /* Build configuration list for PBXProject "FutureCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A661B71D7247EC002BD8B4 /* Debug */,
+				06A661B81D7247EC002BD8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06A661B91D7247EC002BD8B4 /* Build configuration list for PBXNativeTarget "FutureCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A661BA1D7247EC002BD8B4 /* Debug */,
+				06A661BB1D7247EC002BD8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06A6619F1D7247EC002BD8B4 /* Project object */;
+}
